@@ -59,9 +59,11 @@ a {
     gap: 34px;
     font-size: 15px;
     font-weight: 500;
-    color: #5f6b7b;
+    
 }
-
+.kba-main-nav a {
+ color: #5f6b7b;
+}
 .kba-main-nav a:hover {
     color: #122033;
 }
