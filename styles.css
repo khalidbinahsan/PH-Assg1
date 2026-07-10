@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    width: 100%;
+}
+
+body {
+    font-family: "Inter", sans-serif;
+    background: #f3f3f3;
+    color: #122033;
+    line-height: 1.45;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.kba-container {
+    width: min(1280px, calc(100% - 64px));
+    margin: 0 auto;
+}
+
+.kba-header {
+    background: #ececef;
+    border-bottom: 1px solid #e1e4ea;
+}
+
+.kba-header-inner {
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 24px;
+}
+
+.kba-logo {
+    display: inline-flex;
+    align-items: center;
+}
+
+.kba-header a.kba-logo > img {
+    width: 118px;
+    height: auto;
+}
+
+.kba-main-nav {
+    display: flex;
+    align-items: center;
+    gap: 34px;
+    font-size: 15px;
+    font-weight: 500;
+    color: #5f6b7b;
+}
+
+.kba-main-nav a:hover {
+    color: #122033;
+}
+
+.kba-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    padding: 0 24px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 700;
+    background: #2d5ee7;
+    color: #ffffff;
+    transition: background-color 0.2s ease;
+}
+
+.kba-button:hover {
+    background: #2048b8;
+}
