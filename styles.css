@@ -356,3 +356,27 @@ a {
 .kba-price-card .kba-btn1.feature-btn:hover {
     background: #2048b8;
 }
+
+.kba-main-footer {
+    background: #031225;
+    color: #8ca0bf;
+}
+
+.kba-footer-inside {
+    min-height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 14px;
+}
+
+.kba-footer-inside div {
+    display: inline-flex;
+    align-items: center;
+    gap: 26px;
+}
+
+.kba-main-footer a:hover {
+    color: #e4edff;
+}
