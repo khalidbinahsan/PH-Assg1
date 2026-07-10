@@ -451,19 +451,64 @@ a {
     color: #8ca0bf;
 }
 
-.kba-footer-inside {
-    min-height: 90px;
+.kba-footer-top {
+    min-height: 118px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 20px;
-    font-size: 14px;
+    gap: 24px;
+    padding-top: 18px;
+    padding-bottom: 18px;
 }
 
-.kba-footer-inside div {
+.kba-footer-logo img {
+    width: 132px;
+    height: auto;
+}
+
+.kba-footer-socials {
     display: inline-flex;
     align-items: center;
-    gap: 26px;
+    gap: 12px;
+}
+
+.kba-footer-socials a {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.06);
+    color: #e4edff;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+}
+
+.kba-footer-socials a:hover {
+    background: rgba(255, 255, 255, 0.14);
+    transform: translateY(-1px);
+}
+
+.kba-footer-socials svg {
+    width: 18px;
+    height: 18px;
+    fill: currentColor;
+}
+
+.kba-footer-divider {
+    height: 1px;
+    background: rgba(255, 255, 255, 0.14);
+}
+
+.kba-footer-copy {
+    padding: 18px 0 22px;
+    font-size: 14px;
+    text-align: center;
+    color: #8ca0bf;
+}
+
+.kba-footer-copy::before {
+    content: "";
 }
 
 .kba-main-footer a:hover {
