@@ -1,0 +1,1 @@
+Can you please create a faq section underneath of Pricing section that match with current design, font and content.
