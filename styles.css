@@ -218,3 +218,141 @@ a {
     color: #6f7b8b;
     font-size: 14px;
 }
+
+.kba-section-light {
+    background: #f3f3f3;
+}
+
+.kba-pricing {
+    padding: 112px 0 96px;
+}
+
+.kba-pricing h2 {
+    text-align: center;
+    font-size: 56px;
+    line-height: 1.08;
+    letter-spacing: -0.03em;
+    margin-bottom: 14px;
+    font-weight: 700;
+    color: #122033;
+}
+
+.kba-pricing-title {
+    text-align: center;
+    color: #7a8391;
+    font-size: 18px;
+    margin-bottom: 46px;
+}
+
+.kba-pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 24px;
+}
+
+.kba-price-card {
+    border: 1px solid #d8dee7;
+    border-radius: 14px;
+    background: #f7f8fa;
+    padding: 28px 28px 24px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 1px 0 rgba(12, 21, 36, 0.02);
+}
+
+.kba-price-card.featured {
+    background: linear-gradient(180deg, #071a34 0%, #031225 100%);
+    color: #d9e5fb;
+    border-color: #17365e;
+}
+
+.kba-pricing-type {
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: #8390a2;
+}
+
+.kba-price-card.featured .kba-pricing-type {
+    color: #9db2d6;
+}
+
+.kba-pricing-amount {
+    font-size: 44px;
+    line-height: 1.02;
+    letter-spacing: -0.04em;
+    font-weight: 800;
+    margin-top: 6px;
+}
+
+.kba-pricing-unit {
+    color: #7e8795;
+    font-size: 18px;
+    padding-bottom: 16px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid #dce1e9;
+}
+
+.kba-price-card.featured .kba-pricing-unit {
+    color: #9eb0c8;
+    border-bottom-color: rgba(184, 200, 223, 0.18);
+}
+
+.kba-price-card ul {
+    list-style: none;
+    display: grid;
+    gap: 12px;
+    margin-bottom: 24px;
+    flex: 1;
+}
+
+.kba-price-card li {
+    position: relative;
+    padding-left: 18px;
+    font-size: 18px;
+    color: #2d3949;
+}
+
+.kba-price-card.featured li {
+    color: #d9e5fb;
+}
+
+.kba-price-card li::before {
+    content: "•";
+    position: absolute;
+    left: 0;
+    top: -1px;
+    color: #2d5ee7;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.kba-btn2,
+.kba-price-card .kba-btn1.feature-btn {
+    width: 100%;
+    min-height: 46px;
+    background: transparent;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.kba-btn2 {
+    border: 1px solid #6784dc;
+    color: #2d5ee7;
+}
+
+.kba-btn2:hover {
+    border-color: #2048b8;
+    color: #2048b8;
+}
+
+.kba-price-card .kba-btn1.feature-btn {
+    border: 1px solid transparent;
+    margin-top: 0;
+}
+
+.kba-price-card .kba-btn1.feature-btn:hover {
+    background: #2048b8;
+}
