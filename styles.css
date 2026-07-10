@@ -338,11 +338,16 @@ a {
     border-radius: 10px;
     font-size: 15px;
     font-weight: 700;
+    text-align: center;
 }
 
 .kba-btn2 {
+    min-height: 46px;
     border: 1px solid #6784dc;
     color: #2d5ee7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .kba-btn2:hover {
@@ -353,6 +358,7 @@ a {
 .kba-price-card .kba-btn1.feature-btn {
     border: 1px solid transparent;
     margin-top: 0;
+    background: #2048b8;
 }
 
 .kba-price-card .kba-btn1.feature-btn:hover {
