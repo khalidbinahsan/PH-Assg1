@@ -84,3 +84,72 @@ a {
 .kba-button:hover {
     background: #2048b8;
 }
+
+.kba-hero {
+    position: relative;
+    min-height: 760px;
+    background: #000000 url("assets/banner.jpg") center / cover no-repeat;
+    overflow: hidden;
+}
+
+.kba-hero-overlay {
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.82) 0%, rgba(0, 0, 0, 0.62) 42%, rgba(0, 0, 0, 0.3) 100%);
+}
+
+.kba-hero-inner {
+    position: relative;
+    z-index: 1;
+    min-height: 760px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 80px 16px;
+    color: #ffffff;
+}
+
+.kba-hero-inner h1 {
+    max-width: 1100px;
+    color: #ffffff;
+    text-align: center;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 1;
+    letter-spacing: -3.2px;
+}
+
+.kba-hero-emphasis {
+    font-style: italic;
+}
+
+.kba-hero-inner p {
+    max-width: 920px;
+    margin-top: 24px;
+    font-size: 22px;
+    line-height: 1.22;
+    color: #edf0f5;
+}
+
+.kba-btn1 {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 48px;
+    min-width: 210px;
+    margin-top: 350px;
+    padding: 0 24px;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    font-size: 15px;
+    font-weight: 700;
+    background: #2d5ee7;
+    color: #ffffff;
+    transition: background-color 0.2s ease;
+}
+
+.kba-btn1:hover {
+    background: #2048b8;
+}
